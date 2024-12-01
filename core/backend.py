@@ -1,24 +1,29 @@
 import uuid
 from flask import request
 from httpx import Response, AsyncClient
-from infra.env_variables import Infra
+from infra.logger import Logger
 
 
-class RequestHandler:
+class RequestHandler(Logger):
+
+    """this class handles different request methods"""
+
     @property
     def generate_id(self) -> str:
         """Generate a unique ID using uuid4."""
         return str(uuid.uuid4())
 
-    def get_worker_id(self, worker: Infra) -> str:
-        return f"Server-{worker}-{self.generate_id}"
+    def get_worker_id(self, worker: int) -> str:
+        self.level.info(f'worker: {worker}, id: {self.generate_id}')
+        return f"Server-{worker} (id: {self.generate_id})"
 
     @property
     def get_url(self) -> str:
         return request.args.get('q')
 
     async def get_response(self) -> Response:
-        """Perform an async HTTP GET request."""
+        """async HTTP GET request."""
         async with AsyncClient() as client:
             response = await client.get(self.get_url)
+            self.level.info(f'response: {response}')
             return response

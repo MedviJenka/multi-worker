@@ -14,10 +14,15 @@ class Logger:
     @property
     def level(self) -> logging:
 
-        """"
+        """
         logger method
         :params: level ........... logging level, debug, info, etc...
                  text ............ text displayed in logger
+
+
+        outcome:
+        INFO |  Sunday | 01/12/2024 | 19:59:18 | Creating server 1 | Function: main | Line: 18
+
         """
         logging.basicConfig(filename=LOGS,
                             filemode='w',

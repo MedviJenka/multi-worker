@@ -1,27 +1,18 @@
-from core.engine import App
+from core.manager import TaskManager
 from infra.env_variables import Infra, Ports
 from infra.logger import Logger
 
 
 log = Logger().level
-WORKERS = int(Infra.WORKERS.value) + 1
+WORKERS = int(Infra.WORKERS.value)
 BASE_PORT = int(Ports.PORT.value)
 HOST = Ports.HOST.value
 
 
-async def main() -> None:
-
-    app = App()
-    tasks = []
-
-    for worker in range(1, WORKERS):
-        log.info(f"Creating server {worker}")
-        port = BASE_PORT + worker
-        tasks.append(app.execute(host=HOST, worker_id=worker, port=port))
-
-    await asyncio.gather(*tasks)
+def main() -> None:
+    task_manager = TaskManager(host=HOST, base_port=BASE_PORT, workers=WORKERS)
+    task_manager.execute()
 
 
 if __name__ == "__main__":
-    import asyncio
-    asyncio.run(main())
+    main()

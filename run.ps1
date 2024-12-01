@@ -18,3 +18,6 @@ write-host $appLocation
 # $url = "http://127.0.0.1/api/dns?q=$dns"
 # $response = Invoke-WebRequest -Uri $url -Method GET
 # $response.Content
+
+
+curl -X GET "http://127.0.0.1:81/api/dns?q=https://www.example.com"

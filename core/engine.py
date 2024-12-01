@@ -14,13 +14,18 @@ load_dotenv()
 
 
 class App(RequestHandler, Executor):
-    def create_app(self, worker_id):
+
+    def __init__(self) -> None:
+        self.store_ids = []
+
+    def create_app(self, worker_id: int) -> callable:
+
         """Create a Flask app for a given worker."""
         app = Flask(self.get_worker_id(worker_id))
 
         @app.route("/")
         async def home() -> str:
-            return f"Hello from Server {worker_id}!"
+            return f"Hello from {self.get_worker_id(worker=worker_id)}!"
 
         @app.route('/api/dns', methods=['GET'])
         async def get_domain_name() -> str or dict:
