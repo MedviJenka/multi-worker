@@ -38,6 +38,11 @@ This project is a Flask-based application designed to run multiple asynchronous 
 - run app.py
 - access cmd or web and try the examples below
 
+# How to run with docker?
+
+- docker build -t flask-async-app .  
+- docker run -d --env-file .env -p 8080:8080 flask-async-app
+
 ##### Example 1
 
 ```curl -X GET "http://127.0.0.1:81/api/dns?q=https://www.example.com"```
