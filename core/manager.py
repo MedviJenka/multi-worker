@@ -21,7 +21,7 @@ class TaskManager(Executor):
         tasks = []
 
         for worker in range(self.workers):
-            log.info(f"Creating server {worker}")
+            log.info(f"Creating server {worker+1}")
             port = self.base_port + worker
             tasks.append(app.execute(host=self.host, worker_id=worker, port=port))
 

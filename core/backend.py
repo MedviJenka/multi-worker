@@ -14,7 +14,7 @@ class RequestHandler(Logger):
         return str(uuid.uuid4())
 
     def get_worker_id(self, worker: int) -> str:
-        self.level.info(f'worker: {worker}, id: {self.generate_id}')
+        self.level.info(f'worker: {worker+1}, id: {self.generate_id}')
         return f"Server-{worker} (id: {self.generate_id})"
 
     @property

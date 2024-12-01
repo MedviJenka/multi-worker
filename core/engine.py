@@ -15,9 +15,6 @@ load_dotenv()
 
 class App(RequestHandler, Executor):
 
-    def __init__(self) -> None:
-        self.store_ids = []
-
     def create_app(self, worker_id: int) -> callable:
 
         """Create a Flask app for a given worker."""
@@ -45,6 +42,7 @@ class App(RequestHandler, Executor):
 
             if self.get_url.startswith("http://")[7:]:
                 port = 80
+
             else:
                 port = 443
 
