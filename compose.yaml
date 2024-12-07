@@ -1,0 +1,12 @@
+version: '3.12'
+services:
+  app:
+    build:
+      context: .
+      args:
+        BASE_PORT: ${BASE_PORT}
+        WORKERS: ${WORKERS}
+    ports:
+      - "${BASE_PORT}:${BASE_PORT}"
+    env_file:
+      - .env

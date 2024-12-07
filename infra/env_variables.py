@@ -6,10 +6,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-class Ports(Enum):
-    HOST = os.getenv('HOST')
-    PORT = os.getenv('BASE_PORT')
-
-
-class Infra(Enum):
+class Config(Enum):
+    BASE_PORT = os.getenv('BASE_PORT')
     WORKERS = os.getenv('WORKERS')

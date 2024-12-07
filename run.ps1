@@ -1,3 +1,7 @@
+docker-compose build
+docker scout quickview
+docker-compose run -d
+
 # Get the current script file path dynamically
 $filePath = $MyInvocation.MyCommand.Path
 

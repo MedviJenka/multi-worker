@@ -1,31 +1,38 @@
-INFO |  Sunday | 01/12/2024 | 20:41:35 | task is being executed: with the next parameters: host=127.0.0.1, base_port=80, workers=10 | Function: main | Line: 14
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Creating server 1 | Function: main | Line: 24
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Creating server 2 | Function: main | Line: 24
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Creating server 3 | Function: main | Line: 24
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Creating server 4 | Function: main | Line: 24
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Creating server 5 | Function: main | Line: 24
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Creating server 6 | Function: main | Line: 24
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Creating server 7 | Function: main | Line: 24
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Creating server 8 | Function: main | Line: 24
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Creating server 9 | Function: main | Line: 24
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Creating server 10 | Function: main | Line: 24
-INFO |  Sunday | 01/12/2024 | 20:41:35 | worker: 1, id: a69518c8-6eb5-4ec5-968b-8078afd772e1 | Function: get_worker_id | Line: 17
-INFO |  Sunday | 01/12/2024 | 20:41:35 | worker: 2, id: cf799577-e4d4-43a7-8bc7-0ca3563c6c21 | Function: get_worker_id | Line: 17
-INFO |  Sunday | 01/12/2024 | 20:41:35 | worker: 3, id: d6f015d8-6d05-4c2e-aa5d-7f39eae665d3 | Function: get_worker_id | Line: 17
-INFO |  Sunday | 01/12/2024 | 20:41:35 | worker: 4, id: 19db5547-e126-43d0-8ea2-c43afc78c8f2 | Function: get_worker_id | Line: 17
-INFO |  Sunday | 01/12/2024 | 20:41:35 | worker: 5, id: 42f31610-e5b9-49b6-a9ba-204b4b3618e3 | Function: get_worker_id | Line: 17
-INFO |  Sunday | 01/12/2024 | 20:41:35 | worker: 6, id: 4d2d0f08-f015-4373-bf28-6f9dfea9353e | Function: get_worker_id | Line: 17
-INFO |  Sunday | 01/12/2024 | 20:41:35 | worker: 7, id: d4131831-c5f1-4dea-9fcd-1632900940c7 | Function: get_worker_id | Line: 17
-INFO |  Sunday | 01/12/2024 | 20:41:35 | worker: 8, id: 74b6d8a7-6232-47aa-8d14-9f0dc04708f3 | Function: get_worker_id | Line: 17
-INFO |  Sunday | 01/12/2024 | 20:41:35 | worker: 9, id: 99a72451-e91a-4b73-bfe1-0dec1bd7fcc6 | Function: get_worker_id | Line: 17
-INFO |  Sunday | 01/12/2024 | 20:41:35 | worker: 10, id: ee49bc31-a638-431e-b226-e5574c331595 | Function: get_worker_id | Line: 17
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Running on http://127.0.0.1:80 (CTRL + C to quit) | Function: info | Line: 106
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Running on http://127.0.0.1:81 (CTRL + C to quit) | Function: info | Line: 106
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Running on http://127.0.0.1:82 (CTRL + C to quit) | Function: info | Line: 106
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Running on http://127.0.0.1:83 (CTRL + C to quit) | Function: info | Line: 106
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Running on http://127.0.0.1:84 (CTRL + C to quit) | Function: info | Line: 106
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Running on http://127.0.0.1:85 (CTRL + C to quit) | Function: info | Line: 106
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Running on http://127.0.0.1:86 (CTRL + C to quit) | Function: info | Line: 106
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Running on http://127.0.0.1:87 (CTRL + C to quit) | Function: info | Line: 106
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Running on http://127.0.0.1:88 (CTRL + C to quit) | Function: info | Line: 106
-INFO |  Sunday | 01/12/2024 | 20:41:35 | Running on http://127.0.0.1:89 (CTRL + C to quit) | Function: info | Line: 106
+INFO |  Saturday | 07/12/2024 | 22:53:26 | task is being executed: with the next parameters:base_port=Config.BASE_PORT, workers=Config.WORKERS | Function: main | Line: 13
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Creating server 1 | Function: main | Line: 23
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Creating server 2 | Function: main | Line: 23
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Creating server 3 | Function: main | Line: 23
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Creating server 4 | Function: main | Line: 23
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Creating server 5 | Function: main | Line: 23
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Creating server 6 | Function: main | Line: 23
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Creating server 7 | Function: main | Line: 23
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Creating server 8 | Function: main | Line: 23
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Creating server 9 | Function: main | Line: 23
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Creating server 10 | Function: main | Line: 23
+INFO |  Saturday | 07/12/2024 | 22:53:26 | worker: 1, id: bc6f924e-09a3-4743-ba0b-b088112b8a8a | Function: get_worker_id | Line: 17
+INFO |  Saturday | 07/12/2024 | 22:53:26 | worker: 2, id: 1e8e805b-20b1-4b89-9a46-2f27f2316426 | Function: get_worker_id | Line: 17
+INFO |  Saturday | 07/12/2024 | 22:53:26 | worker: 3, id: ba99a92c-88bd-4ff9-9cbe-f3f885828558 | Function: get_worker_id | Line: 17
+INFO |  Saturday | 07/12/2024 | 22:53:26 | worker: 4, id: 0b90a08a-e230-4a4b-8772-732f1d2e30f9 | Function: get_worker_id | Line: 17
+INFO |  Saturday | 07/12/2024 | 22:53:26 | worker: 5, id: 9ba500fe-5483-495e-bf9a-9133c86f164b | Function: get_worker_id | Line: 17
+INFO |  Saturday | 07/12/2024 | 22:53:26 | worker: 6, id: 450a8eb7-673b-4fa3-b40a-7ad9083f2074 | Function: get_worker_id | Line: 17
+INFO |  Saturday | 07/12/2024 | 22:53:26 | worker: 7, id: da9206e4-fb33-44b8-8483-4f42eea4d05b | Function: get_worker_id | Line: 17
+INFO |  Saturday | 07/12/2024 | 22:53:26 | worker: 8, id: 434d379d-fa22-4b72-bbbc-c2d67e099d52 | Function: get_worker_id | Line: 17
+INFO |  Saturday | 07/12/2024 | 22:53:26 | worker: 9, id: dd46a1e5-8fb0-4a35-a56c-494d1ada9e09 | Function: get_worker_id | Line: 17
+INFO |  Saturday | 07/12/2024 | 22:53:26 | worker: 10, id: d8d8343f-7bd5-4181-81d5-e7377aa9e0a3 | Function: get_worker_id | Line: 17
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Running on http://0.0.0.0:80 (CTRL + C to quit) | Function: info | Line: 106
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Running on http://0.0.0.0:81 (CTRL + C to quit) | Function: info | Line: 106
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Running on http://0.0.0.0:82 (CTRL + C to quit) | Function: info | Line: 106
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Running on http://0.0.0.0:83 (CTRL + C to quit) | Function: info | Line: 106
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Running on http://0.0.0.0:84 (CTRL + C to quit) | Function: info | Line: 106
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Running on http://0.0.0.0:85 (CTRL + C to quit) | Function: info | Line: 106
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Running on http://0.0.0.0:86 (CTRL + C to quit) | Function: info | Line: 106
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Running on http://0.0.0.0:87 (CTRL + C to quit) | Function: info | Line: 106
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Running on http://0.0.0.0:88 (CTRL + C to quit) | Function: info | Line: 106
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Running on http://0.0.0.0:89 (CTRL + C to quit) | Function: info | Line: 106
+INFO |  Saturday | 07/12/2024 | 22:53:26 | HTTP Request: GET https://www.google.com "HTTP/1.1 200 OK" | Function: _send_single_request | Line: 1742
+INFO |  Saturday | 07/12/2024 | 22:53:26 | response: <Response [200 OK]> | Function: get_response | Line: 28
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Domain: google.com | Function: get_domain_name | Line: 33
+INFO |  Saturday | 07/12/2024 | 22:53:26 | worker: 4, id: 7079cd6f-18b8-4400-b571-b4d02923f9b7 | Function: get_worker_id | Line: 17
+INFO |  Saturday | 07/12/2024 | 22:53:26 | HTTP Request: GET https://www.google.com "HTTP/1.1 200 OK" | Function: _send_single_request | Line: 1742
+INFO |  Saturday | 07/12/2024 | 22:53:26 | response: <Response [200 OK]> | Function: get_response | Line: 28
+INFO |  Saturday | 07/12/2024 | 22:53:26 | Domain: google.com | Function: get_domain_name | Line: 33
